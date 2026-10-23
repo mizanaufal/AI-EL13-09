@@ -24,8 +24,7 @@ Repositori ini dikembangkan untuk memenuhi tugas mata kuliah **Artificial Intell
 ---
 
 ## Teknologi yang Digunakan
-* **Bahasa Pemrograman:** Python 3.x
-* **Library Bawaan:** `heapq`, `random` (Tanpa instalasi *library* eksternal tambahan, dapat dijalankan di *compiler online*).
+* **Bahasa Pemrograman:** Python 3
 
 ---
 
