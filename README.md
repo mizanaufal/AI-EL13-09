@@ -1,4 +1,4 @@
-# Integrated AI System - Kelompok AI-EL11-09
+# Integrated AI System - Kelompok AI-EL13-09
 
 ## Deskripsi Program
 Repositori ini dikembangkan untuk memenuhi tugas mata kuliah kecerdasan buatan. Di dalam repositori ini terdapat tiga program utama berbasis Python yang mengimplementasikan **Search Algorithm**, **Expert System**, dan **Multi-Agent System**, dengan studi kasus nyata di lingkungan Kampus Telkom University dan sektor layanan kesehatan.
