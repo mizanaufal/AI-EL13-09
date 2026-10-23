@@ -1,10 +1,7 @@
-# AI-EL11-09
-Repositori Proyek Mata Kuliah Kecerdasan Buatan
-# Integrated AI System - Kelompok EL1-09
+# Integrated AI System - Kelompok AI-EL11-09
 
 ## Deskripsi Program
-
-Repositori ini dikembangkan untuk memenuhi tugas mata kuliah **Artificial Intelligence**. Di dalam repositori ini terdapat tiga program utama yang mengimplementasikan pilar-pilar kecerdasan buatan, yaitu **Search Algorithm**, **Expert System**, dan **Multi-Agent System**, yang dirancang khusus dengan studi kasus nyata di lingkungan **Telkom University** dan sektor kesehatan.
+Repositori ini dikembangkan untuk memenuhi tugas mata kuliah **Artificial Intelligence**. Di dalam repositori ini terdapat tiga program utama berbasis Python yang mengimplementasikan **Search Algorithm**, **Expert System**, dan **Multi-Agent System**, dengan studi kasus nyata di lingkungan Kampus Telkom University dan sektor layanan kesehatan.
 
 ---
 
@@ -12,30 +9,28 @@ Repositori ini dikembangkan untuk memenuhi tugas mata kuliah **Artificial Intell
 
 ### 1. Search Algorithm (`1_search_algorithm.py`)
 * **Topik:** Navigasi Jalur Terpendek Pejalan Kaki di Kampus Telkom University.
-* **Penjelasan:** Menggunakan algoritma *Uniform Cost Search (Dijkstra)* berbasis *Priority Queue* (`heapq`) untuk mencari rute tercepat dan memberikan panduan arah langkah demi langkah (*step-by-step instructions*) di antara **38 titik lokasi resmi** (gedung perkuliahan, asrama, fasilitas umum, hingga gerbang kampus)[cite: 1].
+* **Penjelasan:** Menggunakan algoritma *Uniform Cost Search (Dijkstra)* berbasis *Priority Queue* (`heapq`) untuk mencari rute tercepat dan panduan arah langkah demi langkah antar 38 titik lokasi resmi (gedung, asrama, dan gerbang kampus).
 
 ### 2. Expert System (`2_expert_system.py`)
 * **Topik:** Sistem Pakar Rekomendasi Peminatan Fakultas Teknik Elektro (FTE) Telkom University.
-* **Penjelasan:** Menerapkan metode *Forward Chaining* dengan arsitektur `ElektroExpertManager`. Sistem menggunakan sistem pertanyaan bercabang adaptif (*conditional branching*) yang dirancang khusus ramah bagi siswa SMA/SMK untuk mengerucutkan pilihan ke program studi FTE yang paling pas, lengkap dengan deskripsi dan **prospek kerja** lulusannya.
+* **Penjelasan:** Menerapkan metode *Forward Chaining* dengan arsitektur `ElektroExpertManager` dan pertanyaan adaptif bercabang (*conditional branching*) untuk merekomendasikan program studi FTE terbaik bagi siswa SMA/SMK beserta informasi prospek kerjanya.
 
 ### 3. Multi-Agent System (`3_multi_agent_hospital.py`)
 * **Topik:** Sistem Koordinasi IGD Rumah Sakit Pintar (*Smart Hospital Triage & Bed Routing*).
 * **Penjelasan:** Mensimulasikan kolaborasi otonom antar-agen perangkat lunak:
-  * **`HospitalAgent`:** Setiap rumah sakit bertindak sebagai agen mandiri yang secara *real-time* memantau ketersediaan kasur ICU, IGD Reguler, serta jadwal dokter spesialis yang berjaga.
-  * **`EmergencyDispatchManager`:** Menganalisis tingkat keparahan pasien (*triage*) dan berkoordinasi dengan seluruh agen rumah sakit untuk memilih rujukan terdekat dengan estimasi penanganan tercepat.
+  * **`HospitalAgent`:** Memantau ketersediaan kasur ICU, IGD Reguler, dan jadwal dokter spesialis secara *real-time*.
+  * **`EmergencyDispatchManager`:** Menganalisis tingkat keparahan pasien (*triage*) dan mengarahkan ambulans ke rumah sakit dengan estimasi penanganan tercepat.
 
 ---
 
 ## Teknologi yang Digunakan
-
 * **Bahasa Pemrograman:** Python 3.x
-* **Library Bawaan (*Standard Library*):** `heapq`, `random`, `tkinter` (opsional)
+* **Library Bawaan:** `heapq`, `random` (Tanpa instalasi *library* eksternal tambahan, dapat dijalankan di *compiler online*).
 
 ---
 
 ## Cara Menjalankan Program
-
-Pastikan Anda telah menginstal **Python** di komputer Anda. Anda dapat menjalankan masing-masing program langsung melalui terminal pada direktori proyek:
+Jalankan masing-masing program langsung melalui terminal pada direktori proyek:
 
 ```bash
 # 1. Menjalankan Search Algorithm (Navigasi Peta Kampus)
